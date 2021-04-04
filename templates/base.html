@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!-- Light Box -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
-    <title>Real Estate</title>
+    <title>Real Estate {% block title %}{% endblock %}</title>
 </head>
 <body>
     <!-- Top Bar -->
-    {% include 'partials/_topbar.html' %}
 
     <!-- NavBar -->
     {% include 'partials/_navbar.html' %}

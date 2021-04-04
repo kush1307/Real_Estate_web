@@ -52,3 +52,6 @@ Contact_date: DATE
 Admin creds:
 kush
 123456
+
+
+Top bar :- {% include 'partials/_topbar.html' %}
